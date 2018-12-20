@@ -5,7 +5,7 @@ Resources:
   BasicFunctionJavaBucket:
     Type: AWS::S3::Bucket
     Properties: 
-      BucketName: rcm-bacic-lambda-function-java
+      BucketName: rcm-basic-lambda-function-java
     DeletionPolicy: Delete
 
   BasicFunctionJavaRole:

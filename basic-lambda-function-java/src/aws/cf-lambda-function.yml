@@ -10,7 +10,7 @@ Resources:
         S3Bucket: rcm-bacic-lambda-function-java
         S3Key: basic-function-java-1.0.0.jar
       FunctionName: basic-function-java
-      Handler: com.example.lambda.demo.HelloFunctionHandler
+      Handler: com.example.lambda.demo.BasicLambdaFunctionHandler
       Runtime: java8
       Role: 
         Fn::ImportValue: basic-function-java-BasicFunctionJavaRole

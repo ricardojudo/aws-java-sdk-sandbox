@@ -3,7 +3,7 @@ package com.example.lambda.demo;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
-public class HelloFunctionHandler implements RequestHandler<Integer[], Integer> {
+public class BasicLambdaFunctionHandler implements RequestHandler<Integer[], Integer> {
 
     @Override
     public Integer handleRequest(Integer[] input, Context context) {

@@ -11,7 +11,7 @@ import com.amazonaws.services.lambda.runtime.Context;
 /**
  * A simple test harness for locally invoking your Lambda function handler.
  */
-public class HelloFunctionHandlerTest {
+public class BasicLambdaFunctionHandlerTest {
 
     private static Integer[] input;
 
@@ -31,7 +31,7 @@ public class HelloFunctionHandlerTest {
 
     @Test
     public void testHelloFunctionHandler() {
-        HelloFunctionHandler handler = new HelloFunctionHandler();
+        BasicLambdaFunctionHandler handler = new BasicLambdaFunctionHandler();
         Context ctx = createContext();
 
         int output = handler.handleRequest(input, ctx);
